@@ -1,0 +1,91 @@
+body{
+    
+    font-family: Arial, sans-serif; /*Fonte do menu */
+    background: linear-gradient(button, black, blue);
+    display: flex; 
+    justify-content: center;
+    align-items: center; /*Centraliza o login*/
+    height: 100vh; /*tela cheia*/
+    margin: 0;
+
+}
+
+h2 {
+
+    margin-bottom: 35px;
+    color: #00000076;
+}
+
+/*Design das box*/
+ input[type="POST"],
+ input[type="Modificar"],
+ input[type="Inseir"]{
+
+    width: 100%;
+    padding: 35px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+
+
+}
+/*botão*/
+button{
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #2a4180;
+    color:white; 
+    border: none;
+    border-radius: 10px;       
+}
+
+button:hover{
+
+    background: #292b2b;
+
+
+}
+
+a{
+    color: #2d2e2e;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+
+    text-decoration: underline;
+
+}
+
+
+/*Desigin top*/
+#topo
+{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+
+
+
+}
+/*botão*/
+#topo{
+    width: auto; /* deixa o botão com largura ajustada */
+    padding: 10px 20px;
+    background-color: #acacac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block; 
+    
+ 
+}
+
+#topo:hover {
+    background: #292b2b;
+}
+

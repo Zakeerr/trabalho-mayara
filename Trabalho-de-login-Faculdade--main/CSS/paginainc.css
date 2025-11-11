@@ -1,0 +1,91 @@
+body{
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background-color: #5fbafb;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+} 
+
+header h1{
+
+    margin: 0;
+    font-size: 20px;
+}
+
+.user-link{
+    display: flex;
+    gap: 20px;
+
+}
+
+.user-link a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.user-link a:hover{
+    text-decoration: underline;
+}
+
+main{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+main h2{
+    color: #333;
+    font-size: 28px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type="user-link"],
+input[type="user-link"]
+ {
+
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #747474;
+    box-sizing: border-box;
+
+
+
+}
+/*botão*/
+button {
+    width: auto; /* deixa o botão com largura ajustada */
+    padding: 10px 20px;
+    background-color: #2a4180;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block; 
+    margin-left: auto; /* empurra o botão para a direita */
+}
+
+button:hover {
+    background: #292b2b;
+}
+
